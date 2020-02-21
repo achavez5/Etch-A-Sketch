@@ -1,0 +1,27 @@
+#wrapper{
+    display: grid;
+    grid-column: 16;
+    grid-row: 16;
+    width: 960px;
+}
+
+.square {
+    background-color: sandybrown;   
+    float: left;
+    
+}
+
+.square:after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+button{
+  padding: 10px; 
+  margin-bottom: 15px; 
+}
+
+body{
+    background-color: tan;
+}
